@@ -1,0 +1,189 @@
+@media print{
+	body{
+		background-color: transparent;
+		color: black;
+	}
+
+	footer, #offmenu, #comecar, #foto-ampliada, header, #navegador, .popover, #capa a.fichatecnica{
+		display: none !important;
+	}
+
+	.row.logos{
+		width: 100% !important;
+		@include display(flex);
+		@include flex-wrap(wrap);
+		@include justify-content(center);
+		& > div{
+			position: static !important;
+			width: auto !important;
+			margin: 0 0.3cm 1cm !important;
+			height: 1.2cm !important;
+			padding: 0 !important;
+			img{
+				display: block;
+				height: 100%;
+				width: auto;
+			}
+		}
+	}
+
+	#todoscapitulos{
+		page-break-before: always
+	}
+
+	ol.capitulos{
+		li{
+			page-break-inside: avoid;
+		}
+		a{
+			&:after{
+				content: none;
+			}
+		}
+	}
+
+
+
+	.content{
+		padding-top: 0;
+
+
+		span.lauda{
+			color: rgb(127, 127, 127) !important;
+			text-align: right;
+		}
+
+		.capa-cap{
+			min-height: 100vh;
+			position: relative;
+			@include display(flex);
+			@include justify-content(center);
+			@include align-items(center);
+			@include flex-direction(column);
+			span.lauda{
+				position: absolute;
+				top: 0; right: 15px;
+				border-bottom: none;
+			}
+
+			div.tituloenumero{
+				margin-top: 0 !important;
+				margin-bottom: 1.5cm !important;
+				@include display(block);
+
+				h1{
+					text-align: center;
+					font-size: 3em;
+					text-align: justify;
+					@include hyphens(auto);
+					&:first-child{
+						font-size: 6em;
+						margin-bottom: 0.5cm;
+					}
+				}
+			}
+
+			.minicurriculo{
+				margin: 0;
+				h2{
+					font-size: 2em !important;
+				}
+
+				h3{
+					font-size: 1.8em !important;
+				}
+			}
+		}
+		.rodape{
+			text-decoration: none;
+
+			a{
+				span.glyphicon.glyphicon-flag{
+					// display: none;
+				}
+
+				&:after{
+					content: "  [" attr(data-content) "]  ";
+					font-style: italic;
+					color: #808080 !important;
+				}
+			}
+		}
+
+		.imagem{
+			background-color: transparent;
+			border: none;
+			padding: 0;
+			width: auto;
+			margin: 2em 0;
+
+			.img-container{
+				@include display(flex);
+				@include flex-wrap(wrap);
+				@include justify-content(center);
+				pointer-events: none;
+				page-break-inside: avoid;
+
+				&.imgvertical{
+					max-height: none;
+				}
+
+				img.imagemdefato{
+					width: auto;
+					height: auto;
+					max-height: 5cm;
+					@include transition(none);
+					margin-bottom: 8px;
+				}
+
+				div.slider{
+					@include display(flex);
+					@include flex-wrap(wrap);
+					@include justify-content(center);
+					img.imagemdefato{
+						opacity: 1;
+						width: auto;
+						height: auto;
+						max-height: 3.2cm;
+						margin: 0 4px 8px;
+						@include transition(none);
+						position: static;
+						&:first-of-type{
+							position: static;
+						}
+					}
+				}
+
+				div.descricoes{
+					display: block;
+					border-bottom: 1px dotted grey;
+					width: 100%;
+					p{
+						line-height: 1.3;
+						font-size: 0.8em;
+						color: grey !important;
+						margin-bottom: 1em;
+						text-align: center;
+					}
+					
+				}
+
+				img.lupa{
+					display: none;
+				}
+
+				& + p{
+				}
+
+			}
+
+			& > p{
+				margin-top: 0.5em;	
+				margin-bottom: 0;
+				font-size: 0.8em;
+				text-align: center;
+				color: grey !important;
+			}
+		}
+	}
+}

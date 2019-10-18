@@ -494,9 +494,9 @@ div#capa{
 				margin-top: 20px;
 				margin-bottom: 70px;
 			}
-			display: flex;
-			align-items: flex-start;
-			justify-content: space-around;
+			@include display(flex);
+			@include align-items (flex-start);
+			@include justify-content (space-around);
 			@media (max-width: 480px) {
 					flex-wrap: wrap;
 				}
@@ -1100,18 +1100,15 @@ footer{
 			}
 		}
 
-		div.btficha{
+		div.btficha, div.btprint{
 			display: block;
-			margin: 6px 80px 18px;
+			margin: 6px 40px 18px;
 			padding: 6px;
 			border: 1px solid $cor-borders;
 			a{
 				font-weight: normal;
 				text-align: center;
 				display: block;
-
-
-
 			}
 		}
 
@@ -1336,6 +1333,9 @@ footer{
 // 	 	}
 
 // }
+
+
+@import "print";
 
 
 
