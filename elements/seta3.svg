@@ -1,0 +1,16 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="80px" height="80px" viewBox="0 0 80 80" enable-background="new 0 0 80 80" xml:space="preserve">
+	 <filter id="dropShadow">
+	     <feGaussianBlur in="SourceAlpha" stdDeviation="5" />
+	     <feOffset dx="0" dy="0" />
+	     <feMerge>
+	         <feMergeNode />
+	         <feMergeNode in="SourceGraphic" />
+	     </feMerge>
+	   </filter>
+<g>
+	<circle filter="url(#dropShadow)" fill="#FFFFFF" cx="40" cy="40" r="30"/>
+	<polygon points="28.004,26.553 41.452,40 28.004,53.447 33.307,58.75 51.996,40.062 51.935,40 51.996,39.938 33.307,21.25 	"/>
+</g>
+</svg>

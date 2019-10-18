@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="500px" height="140px" viewBox="0 0 500 140" enable-background="new 0 0 500 140" xml:space="preserve">
+<symbol  id="Arrow_28" viewBox="-22.86 -15.877 45.72 31.753">
+	<polygon fill="none" points="-22.86,-15.877 22.86,-15.877 22.86,15.876 -22.86,15.876 	"/>
+	<g>
+		<polygon fill="#231F20" points="-22.86,4.763 4.632,4.763 -6.481,15.876 6.983,15.876 22.86,-0.002 6.983,-15.877 -6.481,-15.877 
+			4.632,-4.763 -22.86,-4.763 		"/>
+	</g>
+</symbol>
+<rect fill="#FFFFFF" stroke="#000000" stroke-miterlimit="10" width="500" height="140"/>
+<g>
+	<text transform="matrix(1 0 0 1 156.1582 21.0547)" font-family="'Tahoma'" font-size="16.1165">Representação Hegemônica</text>
+	<text transform="matrix(1 0 0 1 202.6992 60.8779)" font-family="'Tahoma-Bold'" font-size="24.1747">Tradição</text>
+	<g>
+		<text transform="matrix(1 0 0 1 100.231 125.0283)" font-family="'Tahoma'" font-size="16.1165">como invenção</text>
+		<text transform="matrix(1 0 0 1 305.2676 125.0283)" font-family="'Tahoma'" font-size="16.1165">como verdade</text>
+		<g>
+			
+				<use xlink:href="#Arrow_28"  width="45.72" height="31.753" x="-22.86" y="-15.877" transform="matrix(-0.4354 0 0 0.4354 232.7754 119.6562)" overflow="visible"/>
+			
+				<use xlink:href="#Arrow_28"  width="45.72" height="31.753" x="-22.86" y="-15.877" transform="matrix(0.4354 0 0 -0.4354 277.0293 119.6562)" overflow="visible"/>
+		</g>
+	</g>
+	<g>
+		<path fill="#276ABA" stroke="#000000" stroke-width="1.5374" stroke-miterlimit="10" d="M70.184,47.862
+			c-29.668,0-53.721,12.026-53.721,26.861v11.75c0-14.834,24.053-26.862,53.721-26.862V47.862z"/>
+		<path fill="#408EFF" stroke="#000000" stroke-width="1.5374" stroke-miterlimit="10" d="M73.468,106.562L56.021,96.488v4.146
+			c-22.795-3.108-39.558-13.528-39.558-25.911v11.748c0,12.383,16.763,22.803,39.558,25.911v4.251L73.468,106.562z"/>
+	</g>
+	<g>
+		<path fill="#276ABA" stroke="#000000" stroke-width="1.5374" stroke-miterlimit="10" d="M430.22,47.862
+			c29.668,0,53.722,12.026,53.722,26.861v11.75c0-14.834-24.054-26.862-53.722-26.862V47.862z"/>
+		<path fill="#408EFF" stroke="#000000" stroke-width="1.5374" stroke-miterlimit="10" d="M426.936,106.562l17.446-10.073v4.146
+			c22.795-3.107,39.56-13.527,39.56-25.912v11.75c0,12.383-16.765,22.803-39.56,25.91v4.251L426.936,106.562z"/>
+	</g>
+</g>
+</svg>
